@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<title> TEST </title>
+		<meta charset='utf-8'/>
+	</head>
+
+	<body>
+		Veuillez importer votre "fichier.csv"
+		<form method="post" action="./traitement.php" enctype="multipart/form-data">
+			<input type="file" name="import" /><br/>
+			<input type="hidden" name="MAX_FILE_SIZE" value="1048576" />
+			<input type="submit" name="upload" value="Commencer le Traitement" />
+		</form>
+	</body>
+
+</html>
